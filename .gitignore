@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# Build output
+dist/
+
+# IDEs and editors
+.vscode/
+
+# Environment variables
+.env
+.env.*.local
+
+# lockfiles
+package-lock.json
