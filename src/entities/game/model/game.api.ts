@@ -4,7 +4,7 @@ import { Game, GameResponse } from '@/shared/types/game.types';
 export const gameApi = createApi({
   reducerPath: 'gameApi',
   baseQuery: fetchBaseQuery({
-    baseUrl: 'https://belparyaj.com/pragmatic',
+    baseUrl: 'api',
   }),
   endpoints: (builder) => ({
     getAllGames: builder.query<Record<string, Game[]>, void>({
