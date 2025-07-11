@@ -1,0 +1,8 @@
+:root {
+  --color-gray-900: rgb(31, 31, 31);
+  --color-gray-800: rgba(255, 255, 255, 0.5);
+  --color-black-900: rgb(0, 0, 0);
+  --color-white-100: rgb(255, 255, 255);
+  --color-yellow-300: rgba(240, 218, 125, 1);
+  --color-yellow-800: rgba(186, 142, 71, 1);
+}

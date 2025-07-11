@@ -1,0 +1,53 @@
+.wrapper {
+  background-color: var(--color-gray-900);
+  border-radius: 10px;
+  padding: 8px 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.search {
+  display: flex;
+  gap: 10px;
+}
+
+.searchField {
+  gap: 10px;
+  position: relative;
+  flex: 1;
+}
+
+.input {
+  border: 1px solid var(--color-yellow-800);
+  height: 40px;
+  width: 100%;
+  max-width: 356px;
+  padding-block: 12px;
+  padding-right: 20px;
+  padding-left: 50px;
+}
+
+.icon {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+.button {
+  height: 40px;
+  width: 94px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: var(--color-yellow-300);
+  color: var(--color-black-900);
+  padding: 12px 20px;
+}
