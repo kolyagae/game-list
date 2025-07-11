@@ -1,0 +1,14 @@
+.wrapper {
+  background-color: var(--color-gray-900);
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  flex: 1;
+}
+
+.label {
+  font-weight: 700;
+}
